@@ -15,7 +15,7 @@ body {
 }
 
 .file-upload-btn {
-    width: 100%;
+    width: 50%;
     margin: 0;
     color: #fff;
     background: #26292c;
@@ -167,6 +167,7 @@ body {
   border-radius: 10px;
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
+  
 }
 .박정희-bar {
   position: absolute;
@@ -193,23 +194,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.노무현-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(27, 175, 234, 0.2);
-}
-.노무현-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
-}
+
 .이명박-box {
   position: absolute;
   top: 0;
@@ -227,22 +212,14 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-.문재인-box {
+.노무현-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(195, 140, 102, 0.2);
-}
-.문재인-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(195, 140, 102, 1);
+  background-color: rgba(27, 175, 234, 0.2);
 }
 .김대중-box {
   position: absolute;
@@ -261,6 +238,32 @@ body {
   border-radius: 10px;
   background-color: rgba(49, 132, 155, 1);
 }
+.노무현-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.문재인-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
+}
+.문재인-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+
 
 #label-container {
     width: 80%;
@@ -276,10 +279,21 @@ body {
 label {
   cursor: pointer;
   display: inline-block;
-  width: 90px;
+  width: 120px;
   height: 41px;
   box-shadow: 0 0 0 8px #e5e9ea inset;
   border-radius: 30px;
   position: relative;
 }
 
+
+.kakao_ad_area{
+	margin-top:10%;
+	
+}
+
+.president-label{
+	 padding-right:0px;
+	height:20px;
+	width:40px;
+}
