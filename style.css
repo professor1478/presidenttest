@@ -1,7 +1,14 @@
-body {
-    font-family: sans-serif;
-    background-color: #eeeeee;
+@media all and (min-width:1px){
+@font-face{
+	font-family:JejuHallasan;
+	src:url(JejuHallasan.ttf);
+	font-style:normal;
+	font-weight:normal;
 }
+body {
+    font-family: JejuHallasan;
+    background-color: #eeeeee;
+	}}
 
 .file-upload {
     background-color:#ffffff;
@@ -27,12 +34,12 @@ body {
     outline: none;
     text-transform: uppercase;
     font-weight: 700;
-	margin-top:10%;
+	margin-top:5%;
 }
 
 
 .file-upload-btn:hover {
-    background: #1aa059;
+    background: #26292c;
     color: #ffffff;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -59,16 +66,16 @@ body {
     cursor: pointer;
 }
 
-.image-upload-wrap:hover {
+.image-upload-wrap {
     margin-top: 20px;
-    border: 4px dashed #1fb264;
+    border: none;
     position: relative;
 }
 
 .image-dropping,
-.image-upload-wrap:hover {
+.image-upload-wrap {
     background-color: #ffffff;
-    border: 4px dashed #26292c;
+    border: none;
 }
 
 .image-title-wrap {
@@ -84,7 +91,8 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     color: #26292c;
-    padding: 60px 0;
+    padding-top: 3% ;
+	padding-bottom: none;
 }
 
 .file-upload-image {
@@ -95,8 +103,8 @@ body {
 }
 .try-again-btn {
   border-radius: 40px;
-  border: solid 1.5px #35465d;
-  background-color: #35465d;
+  border: solid 1.5px #26292c;
+  background-color: #26292c;
 }
 .try-again-text {
   display: block;
@@ -184,7 +192,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+  background-color: #F5A9A9;
 }
 .전두환-bar {
   position: absolute;
@@ -192,7 +200,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+  background-color: #FA5858;
 }
 
 .이명박-box {
@@ -270,16 +278,16 @@ body {
     margin: 0 auto;
 }
 .result-message {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .president-explain {
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 label {
   cursor: pointer;
   display: inline-block;
-  width: 120px;
+  width: 140px;
   height: 41px;
   box-shadow: 0 0 0 8px #e5e9ea inset;
   border-radius: 30px;
