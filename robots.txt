@@ -1,2 +1,2 @@
 User-agent: *Allow:/
-Sitemap: https://presidenttest.ga/sitemap.xml
+Sitemap: https://presidenttest.site/sitemap.xml
